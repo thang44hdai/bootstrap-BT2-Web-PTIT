@@ -1,0 +1,21 @@
+#hi1{
+    color: aqua;
+}
+
+#hi2{
+    color: red
+}
+#hi3{
+    color: blueviolet;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    color: aquamarine;
+    box-sizing: border-box;
+    background-color: red;
+    border: 2px solid black;
+    padding: 16px;
+    box-sizing: content-box;
+}
