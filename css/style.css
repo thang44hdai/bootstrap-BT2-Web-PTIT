@@ -1,1 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300..700&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300..700&display=swap');
+
+.slide-1 {
+  background: linear-gradient(#969696, #000), url(/folder_structure.png);
+}
+
+.slide-2 {
+  background: linear-gradient(#969696, #000), url(/assets/avatar.png);
+}

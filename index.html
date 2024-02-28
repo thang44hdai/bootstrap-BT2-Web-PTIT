@@ -10,10 +10,8 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link href="/bootstrap-5.0.2-dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="/css/style.css" />
-  </head>
-
-  <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
@@ -32,7 +30,9 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Features</a>
+              <a class="nav-link active" aria-current="page" href="#"
+                >Features</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Pricing</a>
@@ -60,26 +60,77 @@
               <a class="nav-link disabled" aria-disabled="true">Disabled</a>
             </li>
           </ul>
-          <form class="d-flex" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form>
+          <a name="" id="" class="btn btn-primary" href="#" role="button"
+            >Click to pay!!!</a
+          >
         </div>
       </div>
     </nav>
+  </head>
 
-
+  <body>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item bg-dark ht vh-100 active slide-1">
+          <div class="contanier h-100 d-flex align-items-center justify-content-center">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <h6 class="text-white">Welcome to Qrisry</h6 class="text-white">
+                <h1 class="display-1 text-white">test1</h1>
+                <a
+                  href="#"
+                  class="btn btn-brand"
+                  style="background-color: yellow"
+                  >Reserve</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item bg-dark ht vh-100 slide-2">
+          <div class="contanier h-100 d-flex align-items-center justify-content-center">>
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <h6 class="text-white">Welcome to Qrisry</h6>
+                <h1 class="display-1 text-white">test2</h1>
+                <a
+                  href="#"
+                  class="btn btn-brand"
+                  style="background-color: yellow"
+                  >Reserve</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="carousel-item">
+          <img src="assets/sp_dark.png" class="d-block w-100" alt="..." />
+        </div> -->
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
   </body>
 </html>
