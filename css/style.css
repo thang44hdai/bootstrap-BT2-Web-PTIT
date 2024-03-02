@@ -191,7 +191,54 @@ section {
   border: #f58d17;
 }
 
-#reservation input.form-control{
+#reservation input.form-control {
   height: 47px;
-  
+}
+.insta-posts {
+  position: relative;
+}
+.insta-posts .insta-btn {
+  width: 90px;
+  height: 90px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 26px;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+.insta-posts img {
+  transition: all 0.4s;
+}
+
+.insta-posts:hover img {
+  transform: scale(1.2);
+}
+.insta-posts:hover .insta-btn {
+  opacity: 1;
+}
+
+.blog-post img {
+  width: 30%;
+  object-fit: cover;
+}
+@media (max-width: 768px) {
+  .blog-post {
+    flex-direction: column;
+  }
+  .blog-post img {
+    width: 100%;
+  }
+}
+
+footer {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../assets/bg1.jpg);
+  padding-top: 120px;
+  padding-bottom: 30px;
 }
