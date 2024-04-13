@@ -174,12 +174,12 @@ section {
 .team-member img {
   width: 200px;
   height: 200px;
-  box-shadow: -6px -6px 0 #f58d17;
+  box-shadow: -3px -3px 0 #f58d17;
 }
 
 .team-member img:hover {
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
-  box-shadow: -6px -6px 0 red;
+  box-shadow: -3px -3px 0 #f3c692;
 }
 
 #reservation .form-control {
@@ -241,4 +241,7 @@ footer {
     url(../assets/bg1.jpg);
   padding-top: 120px;
   padding-bottom: 30px;
+}
+.footer-top {
+  margin-bottom: 30px;
 }
