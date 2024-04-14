@@ -224,7 +224,7 @@ section {
 }
 
 .blog-post img {
-  width: 30%;
+  width: 40%;
   object-fit: cover;
 }
 @media (max-width: 768px) {
@@ -244,4 +244,22 @@ footer {
 }
 .footer-top {
   margin-bottom: 30px;
+}
+
+.social-links .ri-facebook-circle-fill {
+  font-size: 24px;
+  color: white;
+}
+
+.social-links .ri-instagram-fill {
+  font-size: 24px;
+  color: white;
+}
+.social-links .ri-google-fill {
+  font-size: 24px;
+  color: white;
+}
+.social-links .ri-chat-thread-fill {
+  font-size: 24px;
+  color: white;
 }
